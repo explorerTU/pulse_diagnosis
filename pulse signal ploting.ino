@@ -1,26 +1,15 @@
 
-/*  Pulse Sensor Multi Sensor
-
-     by
-     Joel Murphy and Yury Gitman   http://www.pulsesensor.com *   Updated Winter 2017
-
-     World Famous Electronics llc.  Public Domain. 2017
-
+/* 
 
   ----------------------  Notes ----------------------  ----------------------
   This code:
-  1) Blinks an LED to two user's Live Heartbeat   PIN 13 and PIN 12
-  2) Fades an LED to two user's Live HeartBeat    PIN 5 and PIN 9
+  1) Blinks an LED to two user's Live Heartbeat   
+  2) Fades an LED to two user's Live HeartBeat    
   3) Determines BPMs for both users
   4) Prints All of the Above to Arduino Serial Plotter or our Processing Visualizer
 
-  Plug the Pulse Sensor RED wires into UNO pins 7 and 8 for 5V power! 
-  Plug the Pulse Sensor BLACK wires into the GND pins
-  Plug the Pulse Sensor PURPLE wires into Analog 0 and Analog 1 pins
-
-  Read Me:
-  https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduino/blob/master/README.md
-  ----------------------       ----------------------  ----------------------
+ 
+ ----------------------       ----------------------  ----------------------
 */
 
 #define PROCESSING_VISUALIZER 1
